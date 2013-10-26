@@ -1,12 +1,6 @@
 /**
  * Created by Lungu on 10/26/13.
  */
-function callback() {
-  setTimeout(function() {
-    $( "#exam-list" ).hide().fadeIn();
-  }, 1000 );
-};
-
 QuizHelper = {
   Init:function(){
     $("#examination").hide();
